@@ -1,0 +1,60 @@
+body {
+    background: #ac9e8d;
+}
+
+div.container {
+    background-color: #fff;
+    border-color: #3a8ed5;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    padding: 1em;
+}
+
+#header {
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background-color: #eee;
+    min-height: calc(200px + 4rem);
+}
+
+#header .logo img {
+    height: 100%;
+    width: 100%;
+}
+
+#header h1 {
+    height: 100%;
+    vertical-align: middle;
+    font-size: 62px;
+
+}
+
+#header .logo {
+    float:left;
+    margin-right: 2rem;
+    width: 220px;
+    height: 200px;
+}
+
+img.filer_image {
+
+}
+
+span.filer_image_info {
+
+}
+
+span.filer_image_info .title {
+    display: block;
+}
+
+div.column {
+    padding: 1rem;
+}
+
+p.image img {
+    margin: 0;
+    width: 100%;
+    object-fit: contain;
+}
